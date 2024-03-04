@@ -35,6 +35,9 @@ Nevertheless, it is worth noting that the predominant approaches in existing mas
 ## Acknowledgement
 This repository borrows from [CNXv2](https://github.com/facebookresearch/ConvNeXt-V2), [MAE](https://github.com/facebookresearch/mae) and [MinkowskiEngine](https://github.com/NVIDIA/MinkowskiEngine).
 
+## License
+VideoMAC is released under the MIT license and inherits all licenses of the aforementioned methods. If you want to use our code for non-academic use, please check the license first.
+
 ## Citation
 ```
 @inproceedings{pei2024videomac,
