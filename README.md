@@ -10,8 +10,8 @@ Nevertheless, it is worth noting that the predominant approaches in existing mas
 |         Comparison            |            Pipeline             |
 
 
->An illustration of VideoMAC for ConvNet-based MVM. During pre-training, we mask 75% of symmetric patches from two frames randomly. In our VideoMAC, the MVM of frame pairs is achieved by an online network optimized by gradients (![ ](https://via.placeholder.com/15/c5e0b4/000000?text=+), online loss ![equation](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BL%7D_%7Bo%7D)
-) and a target network updated by EMA (![ ](https://via.placeholder.com/15/bdd7ee/000000?text=+), target loss ![equation](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BL%7D_%7Bt%7D)
+>An illustration of VideoMAC for ConvNet-based MVM. During pre-training, we mask 75% of symmetric patches from two frames randomly. In our VideoMAC, the MVM of frame pairs is achieved by an online network optimized by gradients (![](https://img.shields.io/badge/-%20-c5e0b4?style=flat-square), online loss ![equation](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BL%7D_%7Bo%7D)
+) and a target network updated by EMA (![](https://img.shields.io/badge/-%20-bdd7ee?style=flat-square), target loss ![equation](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BL%7D_%7Bt%7D)
 ). ![equation](https://latex.codecogs.com/svg.latex?%5Cmathcal%7BL%7D_%7Bc%7D)
  is computed as the reconstruction consistency loss between reconstructed patches of frame pairs.
 
